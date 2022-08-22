@@ -2,18 +2,18 @@
 # Site
 
 title: Base
-url: "https://orange-ape.cloudvent.net/"
-baseurl:
+url: ""
+baseurl: download.github.io
 google_analytics_key:
-disqus_shortname:
+disqus_shortname: masterwifinetworksolution
 newsletter_action:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Knowledge base template for Jekyll.
-author:
-  name:
-  email:
+description: Download config dan script masterwifinetworksolution.
+author: Muhammad Yusuf
+  name: Muhammad Yusuf
+  email: myarachma92@gmail.com
   twitter: # twitter username without the @ symbol
 social:
   name: Base Template
