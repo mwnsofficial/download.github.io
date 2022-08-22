@@ -2,8 +2,8 @@
 # Site
 
 title: Base
-url: ""
-baseurl: download.github.io
+url: "https://mwnsofficial.github.io/download.github.io/"
+baseurl: mwnsofficial.github.io/download.github.io/
 google_analytics_key:
 disqus_shortname: masterwifinetworksolution
 newsletter_action:
@@ -11,7 +11,7 @@ newsletter_action:
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
 description: Download config dan script masterwifinetworksolution.
-author: Muhammad Yusuf
+author:
   name: Muhammad Yusuf
   email: myarachma92@gmail.com
   twitter: # twitter username without the @ symbol
