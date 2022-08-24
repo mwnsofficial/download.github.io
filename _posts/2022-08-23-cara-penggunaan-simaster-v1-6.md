@@ -11,7 +11,7 @@ type: Document
 
 Cara Penggunaan config simaster v1.6 di openclash
 
-1. Download File [DISNI](https://teknosimple.com/p11tGroSIVI)
+1. Download File [DISNI](https://mwnsofficial.github.io/download.github.io/deployment/simaster-v1-6/)
 2. Masuk Openclash di Openwrt
 3. Masuk ke menu Config Manage
 4. Pilih tabel dengan `Backup`
