@@ -2,8 +2,8 @@
 # Site
 
 title: Config MWNS Official
-url: "https://mwnsofficial.github.io/download.github.io/"
-baseurl: 
+url: "/download.github.io/"
+baseurl: "/"
 google_analytics_key:
 disqus_shortname: masterwifinetworksolution
 newsletter_action:
