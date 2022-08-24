@@ -3,7 +3,7 @@
 
 title: Config MWNS Official
 url: "/download.github.io/"
-baseurl: "/"
+baseurl:
 google_analytics_key:
 disqus_shortname: masterwifinetworksolution
 newsletter_action:
