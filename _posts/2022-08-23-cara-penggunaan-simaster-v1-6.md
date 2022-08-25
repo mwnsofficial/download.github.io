@@ -11,25 +11,25 @@ type: Document
 
 Cara Penggunaan config simaster v1.6 di openclash
 
-1. Download File [DISNI](https://mwnsofficial.github.io/download.github.io/video/simaster-v1-6/)
-2. Masuk Openclash di Openwrt
-3. Masuk ke menu Config Manage
-4. Pilih tabel dengan `Backup`
-5. Masukkan file backup `Simaster V1.6.tar.gz`
-6. Tekan Upload
-7. Masuk menu Config Editor
-8. Masuk Proxy_Provider
-9. Pilih `account-master.yaml` lalu tekan Edit
-10. Masukkan akun kalian masing-masing dan tekan save
+1. Download File [DISNI](https://to.menjelajahi.com/iN3qC8)
+2. Masuk aplikasi rar buat ekstrak file
+3. Masuk ke aplikasi `Clash For Android`
+4. Pilih menu Profile lalu tekan file
+5. Isikan nama profile lalu pilih browse files
+6. samping kanan configuration tekan tanda titik 3 lalu import
+7. pilih folder config simaster-v1.6.yaml
+8. Masuk Provider
+9. Pilih `+` lalu masukkan semua yang ada di folder akun dan rule semua nya satu per satu
+10. Sebelum masukkan akun pastikan anda sudah mengedit akun kalian terlebih dahulu
+11. Jika sudah masuk semua kemudian tekan kembali
+12. Tekan ikon disk untuk menyimpan pengaturan
+13. Tekan tombol di kiri nama profil lalu tekan kembali
+14. Tekan Tap to Start untuk memulai config
 
-Kini anda sudah bisa menggunakan config `Simaster V1.6`
+Kini anda sudah bisa menggunakan config `CFA Simaster V1.6`
 
-## Mengatasi masalah koneksi
+## Issue
 
-Silahkan Ekstrak File backup lalu ubah ke settingqan dasar openclash
-Kemudian upload sesuai folder masing masing yang ada dalam file Simaster V1.6
+Game sangat ok
 
-1. Upload config di folder `Backup`, folder `Config`, dan luar dari `Config editor`
-2. Upload file `account-master.yaml` di folder `proxy_provider`
-3. Isikan akun anda di dalam file `account-master.yaml`
-4. Jalankan openclash dengan menekan `switch config` di menu `overview`
+Youtube dan Sosmed tahap perbaikan
