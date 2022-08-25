@@ -2,13 +2,13 @@
 date: 2022-08-26
 title: Simaster V1.6 Rev1
 video_id: iFfaJIyQdRQ
-description: Simaster V1.6 Rev1 Openclash
+description: Simaster V1.6 Rev1
 categories:
   - Video
 resources:
   - name: Source Video
     link: https://youtu.be/iFfaJIyQdRQ)
-  - name: Tutorial Simaster V1.6
+  - name: Tutorial Simaster V1.6 Rev1
     link: 
   - name: Download
     link: https://to.menjelajahi.com/dFgA
