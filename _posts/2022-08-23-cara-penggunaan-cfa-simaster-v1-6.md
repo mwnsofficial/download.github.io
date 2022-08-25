@@ -1,9 +1,9 @@
 ---
 date: 2022-08-23
-title: Simaster v1.6
+title: Cfa Simaster v1.6
 categories:
-  - Openclash
-description: Cara penggunaan simaster v1.6
+  - Clash For Android
+description: Cara penggunaan cfa simaster v1.6
 type: Document
 ---
 
