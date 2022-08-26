@@ -1,5 +1,5 @@
 ---
-date: 2022-08-26
+date: 2022-08-25
 title: Simaster V1.6 Rev1
 video_id: iFfaJIyQdRQ
 description: Simaster V1.6 Rev1
@@ -9,12 +9,12 @@ resources:
   - name: Source Video
     link: https://youtu.be/iFfaJIyQdRQ)
   - name: Tutorial Simaster V1.6 Rev1
-    link: 
+    link: https://masterwifinetworksolution.tech
   - name: Download
     link: https://to.menjelajahi.com/dFgA
 type: Video
 set: Videos
-order_number: 2
+order_number: 1
 ---
 
 ## Change Log
