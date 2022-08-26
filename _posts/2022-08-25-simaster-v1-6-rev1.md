@@ -9,7 +9,7 @@ resources:
   - name: Source Video
     link: https://youtu.be/iFfaJIyQdRQ)
   - name: Tutorial Simaster V1.6 Rev1
-    link: https://masterwifinetworksolution.tech
+    link: https://mwnsofficial.github.io/download.github.io/openclash/tutorial-simaster-v1-6-rev1/
   - name: Download
     link: https://to.menjelajahi.com/dFgA
 type: Video
