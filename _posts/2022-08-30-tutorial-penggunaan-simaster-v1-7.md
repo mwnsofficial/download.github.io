@@ -7,7 +7,7 @@ description: Cara penggunaan simaster v1.7
 type: Document
 ---
 
-## Cfa Simaster V1.7
+## Simaster V1.7
 
 ![image](https://user-images.githubusercontent.com/46000841/187411953-411d676b-c19c-47e1-8ec9-2772fdff0ed0.png)
 
