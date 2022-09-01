@@ -25,7 +25,52 @@
 
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		
-		 <style>
+	</head>
+
+	<body class="{{ page.body_class }}">
+		<header>
+			<div class="wrapper">
+				<section class="top-bar">
+					<div class="logo"><a href="{{ site.baseurl }}/">{% include logo.html %}</a></div>
+					{% include navigation.html %}
+				</section>
+				<section class="hero_search">
+					<h1>Config Master Wifi Network Solution</h1>
+					<p>Paling terlengkap, terupdate, dan paling respondsive.</p>
+					{% include search.html %}
+				</section>
+			</div>
+
+		</header>
+		<section class="content">
+			<div class="wrapper">
+				{{ content }}
+			</div>
+		</section>
+
+		{% include footer.html %}
+		<script>
+			$(function() {
+				$('a[href*=\\#]').not(".no-smooth").on('click', function(event){
+					var el = $(this.hash);
+					if (el.length > 0) {
+						// event.preventDefault();
+						$('html,body').animate({scrollTop:$(this.hash).offset().top - 50}, 500);
+					}
+				});
+
+				$('svg').click(function() {
+					$(this).parent('form').submit();
+				});
+			});
+
+			document.getElementById("open-nav").addEventListener("click", function (event) {
+				event.preventDefault();
+				document.body.classList.toggle("nav-open");
+			});
+		</script>
+		
+				 <style>
 /* Anti AdBlock UC Browser By codeflare.blogspot.com */
 #adBlockUC {background:rgba(0,0,0,0.85);padding:0;position:fixed;bottom:0;left:0;top:-100px;right:0;z-index:1000;opacity:1;visibility:visible;height:auto;}
 #adBlockUC svg {width:100px; height:100px}
@@ -72,49 +117,5 @@ var notifAd = 'Mohon matikan dulu <u>AD-Block</u> atau <u>AD-Guard</u> sebelum m
 <script src='https://codeflareblogspot.github.io/code/KillAdBlock.js'></script>
 <!-- Kill AdBlock --> 
 		
-	</head>
-
-	<body class="{{ page.body_class }}">
-		<header>
-			<div class="wrapper">
-				<section class="top-bar">
-					<div class="logo"><a href="{{ site.baseurl }}/">{% include logo.html %}</a></div>
-					{% include navigation.html %}
-				</section>
-				<section class="hero_search">
-					<h1>Config Master Wifi Network Solution</h1>
-					<p>Paling terlengkap, terupdate, dan paling respondsive.</p>
-					{% include search.html %}
-				</section>
-			</div>
-
-		</header>
-		<section class="content">
-			<div class="wrapper">
-				{{ content }}
-			</div>
-		</section>
-
-		{% include footer.html %}
-		<script>
-			$(function() {
-				$('a[href*=\\#]').not(".no-smooth").on('click', function(event){
-					var el = $(this.hash);
-					if (el.length > 0) {
-						// event.preventDefault();
-						$('html,body').animate({scrollTop:$(this.hash).offset().top - 50}, 500);
-					}
-				});
-
-				$('svg').click(function() {
-					$(this).parent('form').submit();
-				});
-			});
-
-			document.getElementById("open-nav").addEventListener("click", function (event) {
-				event.preventDefault();
-				document.body.classList.toggle("nav-open");
-			});
-		</script>
 	</body>
 </html>
