@@ -24,6 +24,45 @@
 		{% feed_meta %}
 
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		
+		 <style>
+/* Anti AdBlock UC Browser By codeflare.blogspot.com */
+#adBlockUC {background:rgba(0,0,0,0.85);padding:0;position:fixed;bottom:0;left:0;top:-100px;right:0;z-index:1000;opacity:1;visibility:visible;height:auto;}
+#adBlockUC svg {width:100px; height:100px}
+#adBlockUC svg path {fill:#fff}
+#adBlockUC a{color:#ffe88b;} #adBlockUC a:hover{color:#ffe88b;text-decoration:underline}
+#adBlockUC .isiAdsUC{background:#e74c3c;color:#fff;position:absolute;text-align:center;padding:0 30px 30px 30px;margin:auto;top:30%;left:0;right:0;font-size:1.5rem;font-weight:400;line-height:1.5em;font-family:monospace;max-width:800px;box-shadow:0 20px 10px -10px rgba(0,0,0,0.15);border:15px solid rgba(0,0,0,.07); overflow:hidden; transition:all .6s cubic-bezier(.25,.8,.25,1); -webkit-transform:translateZ(0); transform:translateZ(0); backface-visibility:visible; transition:all .2s ease-in-out,visibility 0s; transform-origin:bottom center; pointer-events:auto; transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); opacity:1; animation:adBlockInfoWobble .5s; -moz-animation: adBlockInfoWobble .5s; -webkit-animation:adBlockInfoWobble .5s; -o-animation:adBlockInfoWobble .5s}
+#adBlockUC .isiAdsUC h4, #adBlockUC .isiAdsUC .judul{display:inline-block;background:rgba(0,0,0,.07);padding:5px 25px 15px 25px;font-size:2.2rem;font-weight:600;margin-bottom:20px}
+#adBlockUC .tutupAds{visibility:hidden;opacity:0;color:#ffe88b;text-align:center;position:absolute;bottom:10px;right:10px;font-size:42px;cursor:pointer;width:30px;height:30px;line-height:30px;border-radius:100%;transition:all .6s cubic-bezier(.25,.8,.25,1);transform:translate(0,50px);}
+#adBlockUC svg:hover{animation:jello-horizontal .5s both}
+#adBlockUC .isiAdsUC:hover{background:#229954}
+@media screen and (max-width: 550px) {
+#adBlockUC .isiAdsUC{top:20%;}
+}
+</style> 
+		
+		 <script type='text/javascript'>
+//<![CDATA[
+var getUCBrowser = navigator.userAgent;
+var chkUCBrowser = getUCBrowser.search("UCBrowser");
+if(chkUCBrowser > 1) {
+var judulUC = 'UC Browser Detected';
+var notifUC = 'Warning! this page require Google Chrome browser, press <b>Copy URL Link</b> below then paste in Google Chrome address bar.<br/>Thank you.';
+var alertUC = document['createElement']('div');
+alertUC['id'] = 'adBlockUC';
+alertUC['innerHTML'] = '<div class="isiAdsUC"><span class="judul">' + judulUC + '</span><br/><svg viewBox="0 0 24 24"><path d="M13,13H11V7H13M12,17.3A1.3,1.3 0 0,1 10.7,16A1.3,1.3 0 0,1 12,14.7A1.3,1.3 0 0,1 13.3,16A1.3,1.3 0 0,1 12,17.3M15.73,3H8.27L3,8.27V15.73L8.27,21H15.73L21,15.73V8.27L15.73,3Z"></path></svg><br/>' + notifUC + '<br/><input type="text" value="'+window.location.href+'" id="myInputURL" style="max-width:300px;width:100%;"><br/><button onclick="copyMyURL()" style="padding:10px;">Copy URL Link</button></div>';
+document['body']['append'](alertUC);
+document['body']['style']['overflow'] = 'hidden';
+}
+function copyMyURL(){
+var copyText = document.getElementById("myInputURL");
+copyText.select();
+copyText.setSelectionRange(0, 99999);
+document.execCommand("copy");
+}
+//]]>
+</script> 
+		
 	</head>
 
 	<body class="{{ page.body_class }}">
@@ -68,5 +107,13 @@
 				document.body.classList.toggle("nav-open");
 			});
 		</script>
+		 <!-- Kill AdBlock -->
+<link href='https://codeflareblogspot.github.io/code/KillAdBlock.css' rel='stylesheet'/>
+<script>
+var titleAd = 'Terdeteksi Adblock / Adguard';
+var notifAd = 'Mohon matikan dulu <u>AD-Block</u> atau <u>AD-Guard</u> sebelum melanjutkan atau white list blog ini.<br/><b>Terima kasih</b>';
+</script>
+<script src='https://codeflareblogspot.github.io/code/KillAdBlock.js'></script>
+<!-- Kill AdBlock --> 
 	</body>
 </html>
