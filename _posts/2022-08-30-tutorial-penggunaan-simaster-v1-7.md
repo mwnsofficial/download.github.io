@@ -1,5 +1,5 @@
 ---
-date: 2022-08-30
+date: 2022-09-01
 title: Simaster V1.7
 categories:
   - openclash
@@ -13,7 +13,7 @@ type: Document
 
 Cara Penggunaan config simaster v1.7
 
-1. Download File [DISNI](https://masterwifinetworksolution.tech/download3)
+1. Download File [DISNI](https://mwnsofficial.github.io/download.github.io/video/simaster-v1-7/)
 2. Masuk Openclash di Openwrt
 3. Masuk ke menu Config Manage
 4. Pilih tabel dengan `Backup`
