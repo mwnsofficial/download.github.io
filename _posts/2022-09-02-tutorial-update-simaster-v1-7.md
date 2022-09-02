@@ -1,6 +1,6 @@
 ---
 date: 2022-09-02
-title: Update Simaster V1.7
+title: Tutorial Update Simaster V1.7
 categories:
   - openclash
 description: Cara update simaster v1.7
