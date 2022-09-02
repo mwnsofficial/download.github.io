@@ -1,13 +1,13 @@
 ---
 date: 2022-09-02
 title: Update Simaster V1.7
-video_id: oI1kSYbTiEs
+video_id: NQmiiTu0fck
 description: Update Simaster V1.7
 categories:
   - Video
 resources:
   - name: Source Video
-    link: https://www.youtube.com/watch?v=oI1kSYbTiEs
+    link: https://youtu.be/NQmiiTu0fck
   - name: Tutorial Update Simaster V1.7
     link: https://mwnsofficial.github.io/download.github.io/openclash/tutorial-update-simaster-v1-7/
   - name: Download
