@@ -13,7 +13,7 @@ type: Document
 
 Cara update config simaster v1.7
 
-1. Download File [DISNI](https://to.menjelajahi.com/H7gw)
+1. Download File [DISNI](https://mwnsofficial.github.io/download.github.io/video/update-simaster-v1-7/)
 2. Ekstrak file
 3. Install Winscp jika pengguna PC
 4. Install Admin Hands apk jika pengguna Android
